@@ -1,6 +1,11 @@
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './router/Router'
+
 const App = () => {
   return (
-    <h1 className='text-center invert'>a</h1>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
