@@ -7,23 +7,27 @@ import { Features } from './Features'
 import { Clients } from './Clients'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Gallery } from './Gallery'
 
 export const Main = () => {
   const features = [
     {
       id: 1,
       title: 'ALWAYS FRESH',
-      paragraph: "We focus on serving fresh food always. Fresh food is always best for your precious body and we keep that in mind and that's why we like to serve everything fresh"
+      paragraph: "We focus on serving fresh food always. Fresh food is always best for your precious body and we keep that in mind and that's why we like to serve everything fresh",
+      animation: '900'
     },
     {
       id: 2,
       title: 'AMAZING TASTE',
-      paragraph: 'Serving tasty food has always been our first priority and also to make sure the taste is constant every time you consume, you will see no difference in taste'
+      paragraph: 'Serving tasty food has always been our first priority and also to make sure the taste is constant every time you consume, you will see no difference in taste',
+      animation: '600'
     },
     {
       id: 3,
       title: 'PREMIUM INGREDIENTS',
-      paragraph: "We know great ingredients are must to take the taste and health on next level so that's why we focus on using organic ingredients so you don't have to worry"
+      paragraph: "We know great ingredients are must to take the taste and health on next level so that's why we focus on using organic ingredients so you don't have to worry",
+      animation: '300'
     }
   ]
   const clients = [
@@ -32,21 +36,24 @@ export const Main = () => {
       paragraph: 'The food was absolutely fantastic, from preparation to serving was a joy. We especially enjoyed the specialty drinks at the bar, the cucumber/cilantro infused vodka martini and the K&P was fantastic.',
       img: imgpatricio,
       name: 'PATRICIO D',
-      job: 'LAWYER'
+      job: 'LAWYER',
+      animation: '300'
     },
     {
       id: 2,
       paragraph: 'A very friendly and welcoming place to spend time. All staff are well trained, helpful and all with a smile. Everything is handled with great efficiency and attention to detail.',
       img: imgselena,
       name: 'SELENA J',
-      job: 'ARCHITECT'
+      job: 'ARCHITECT',
+      animation: '600'
     },
     {
       id: 3,
       paragraph: 'Great dining experience...from walking in the door, being greeted by the staff, being seated, ordering drinks, it takes about 5 minutes. The food is hot and tasty. The servers are very friendly.',
       img: imgcynthia,
       name: 'CYNTHIA J',
-      job: 'DENTIST'
+      job: 'DENTIST',
+      animation: '900'
     }
   ]
   AOS.init()
@@ -89,7 +96,7 @@ export const Main = () => {
         <div className='grid gap-[1.5rem] sm:grid-cols-2 lg:grid-cols-3 sm:my-[2rem]'>
           {
           features.map((value) => (
-            <Features key={value.id} paragraph={value.paragraph} title={value.title} />
+            <Features key={value.id} paragraph={value.paragraph} title={value.title} animation={value.animation} />
           ))
         }
         </div>
@@ -105,7 +112,7 @@ export const Main = () => {
         <div className='grid gap-[1.5rem] sm:grid-cols-2 lg:grid-cols-3 sm:my-[2rem]'>
           {
           clients.map((value) => (
-            <Clients key={value.id} paragraph={value.paragraph} name={value.name} job={value.job} image={value.img} />
+            <Clients key={value.id} paragraph={value.paragraph} name={value.name} job={value.job} image={value.img} animation={value.animation} />
           ))
         }
         </div>
@@ -113,6 +120,7 @@ export const Main = () => {
           READ MORE REVIEWS
         </a>
       </section>
+      <Gallery />
     </>
   )
 }
