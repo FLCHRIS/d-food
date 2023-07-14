@@ -14,12 +14,12 @@ export const Gallery = () => {
         SHOTS
       </h2>
       <div className='gallery'>
-        <img src={img1} alt='' aria-hidden='true' className='img1' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='600' />
+        <img src={img1} alt='' aria-hidden='true' className='img1' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='700' />
         <img src={img2} alt='' aria-hidden='true' className='img2' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='300' />
-        <img src={img3} alt='' aria-hidden='true' className='img3' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='300' />
+        <img src={img3} alt='' aria-hidden='true' className='img3' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='500' />
         <img src={img4} alt='' aria-hidden='true' className='img4' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='500' />
         <img src={img5} alt='' aria-hidden='true' className='img5' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='600' />
-        <img src={img6} alt='' aria-hidden='true' className='img6' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='500' />
+        <img src={img6} alt='' aria-hidden='true' className='img6' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='600' />
       </div>
     </section>
   )
