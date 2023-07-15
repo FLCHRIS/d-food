@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className='px-[2rem] py-[1rem] md:px-[4rem] md:py-[2rem] grid grid-flow-col justify-between items-center max-w-[90rem] mx-auto'>
-      <Link to='/' className='font-Roboto font-bold text-[1.25rem] dark:text-White transition-colors'>DF</Link>
+      <Link to='/' className='font-Roboto font-bold text-[1.25rem] dark:text-White transition-colors md:text-[1.5rem]'>DF</Link>
       <div className='grid grid-flow-col gap-[1rem] sm:gap-[1.5rem]'>
         <Nav menu={menu} />
         <button onClick={handleTheme} aria-label='Change theme'>
