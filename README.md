@@ -5,9 +5,11 @@ Welcome to Delicious Food. This is a website that shows Delicious Food's menu, w
 
 ## Built with
 
-- **React** :blue_heart:
-- **Tailwind CSS** :art:
-- **Vite** :rocket:
+![**React**](https://img.shields.io/badge/REACT-0B2C4A?style=for-the-badge&logo=react&logoColor=white)
+
+![**Tailwind CSS**](https://img.shields.io/badge/TAILWINDCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+![**Vite**](https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ## Goals
 
@@ -35,3 +37,10 @@ And the following development dependencies:
 
 - **ESLint**
 - **Standard**
+
+## Author
+
+Some of my platforms
+
+- [Frontend Mentor | Christian's profile](https://www.frontendmentor.io/profile/FLCHRIS)
+- [GitHub](https://github.com/FLCHRIS)
