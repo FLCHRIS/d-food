@@ -23,8 +23,8 @@ export const Header = () => {
       <div className='grid grid-flow-col gap-[1rem] sm:gap-[1.5rem]'>
         <Nav menu={menu} />
         <button onClick={handleTheme} aria-label='Change theme'>
-          <FaMoon className={theme === false ? 'text-[1rem] text-Black' : 'hidden'} aria-hidden='true' />
-          <BiSolidSun className={theme === true ? 'text-[1.2rem] text-White' : 'hidden'} aria-hidden='true' />
+          <FaMoon className={theme === false ? 'text-[1rem] md:text-[1.1rem] text-Black' : 'hidden'} aria-hidden='true' />
+          <BiSolidSun className={theme === true ? 'text-[1.2rem] md:text-[1.4rem] text-White' : 'hidden'} aria-hidden='true' />
         </button>
         <button className='relative z-10 sm:hidden' aria-expanded={menu} aria-controls='menu-list' onClick={() => menu === false ? setMenu(true) : setMenu(false)} aria-label='Show menu'>
           <BiMenuAltRight className='text-[1.4rem] text-Black dark:text-White transition-colors' aria-hidden='true' />
