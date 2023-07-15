@@ -9,8 +9,8 @@ import img6 from '../assets/sebastiancoman.jpg'
 export const Gallery = () => {
   return (
     <section className='mt-[3rem]'>
-      <p className='font-Roboto font-semibold text-Black dark:text-White transition-colors'>OUR</p>
-      <h2 className='font-Roboto font-bold mb-[1rem] text-[1.25rem] text-Black dark:text-White'>
+      <p className='font-Roboto font-semibold text-Black dark:text-White transition-colors md:text-lg'>OUR</p>
+      <h2 className='font-Roboto font-bold mb-[1rem] text-[1.25rem] text-Black dark:text-White md:text-[1.35rem]'>
         SHOTS
       </h2>
       <div className='gallery'>
