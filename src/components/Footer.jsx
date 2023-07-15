@@ -8,9 +8,9 @@ export const Footer = () => {
     <footer className='px-[2rem] py-[1rem] md:px-[4rem] sm:py-[2rem] max-w-[90rem] mx-auto'>
       <Location />
       <form action='' className='mt-[4rem]'>
-        <p className='text-center font-Roboto font-bold text-Black dark:text-White text-[1.25rem] transition-colors md:text-[1.35rem]'>
+        <h2 className='text-center font-Roboto font-bold text-Black dark:text-White text-[1.25rem] transition-colors md:text-[1.35rem]'>
           STAY UPDATE WITH DEALS
-        </p>
+        </h2>
         <input type='email' name='' id='' aria-label='email address' placeholder='Email Address...' className='block w-[12rem] mx-auto px-[.5rem] py-[.3rem] border-[1px] border-Black border-dashed font-Roboto my-[1rem] bg-transparent dark:border-White text-Black dark:text-White outline-none placeholder:text-WhiteLight md:text-lg' />
         <input type='submit' value='SUBMIT' className='block w-[12rem] mx-auto px-[.5rem] py-[.3rem] border-[1px] border-Black border-dashed font-semibold text-Black dark:text-White dark:border-White cursor-pointer md:text-lg' />
       </form>
