@@ -73,4 +73,21 @@
       grid-row: 3 / 5;
     }
   }
+  /* ====================================================
+     ===  Layout About, Media TailwindCSS 'sm' Layout Grid ===
+     ==================================================== */
+
+  @media (min-width: 640px) {
+    .about__card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+    .about__card .reverse {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+  }
 }
