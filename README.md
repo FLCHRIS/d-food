@@ -27,7 +27,7 @@ The proposed goals for this project were met. :smiling_face_with_three_hearts:
 - **Website with a correct SEO.** :white_check_mark:
 - **Website Adaptable to any screen resolution.** :white_check_mark:
 
-You can see the statistics in the following [**link**](https://pagespeed.web.dev/analysis/https-delifoodc-netlify-app/n1unab6w7h?form_factor=mobile).
+You can see the statistics in the following [**link**](https://pagespeed.web.dev/analysis/https-delifoodc-netlify-app/wm5zqx0azr?form_factor=mobile).
 
 ## Dependencies
 
