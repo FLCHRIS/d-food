@@ -32,15 +32,14 @@ export const About = () => {
     <>
       <h2 className='text-center font-Roboto font-bold text-[2rem] md:text-[3rem] text-Black dark:text-White transition-colors mt-[1rem] mb-[3rem]'>WE SERVE EXCELLENCE</h2>
       <article className='max-w-2xl mx-auto text-center sm:my-[4rem]'>
-        <p className='font-Roboto font-semibold text-Black dark:text-White transition-colors'>ABOUT</p>
-        <h3 className='font-Roboto font-bold mb-[1rem] text-[1.25rem] text-Black dark:text-White'>
-          RANDOM
+        <h3 className='font-Roboto font-bold mb-[1rem] text-[1.25rem] md:text-[1.35rem] text-Black dark:text-White'>
+          ABOUT US
         </h3>
-        <p className=' font-Roboto text-Black transition-colors dark:text-White'>
-          Our mission compels us to do everything we can to expand human potential. We do this by creating revolutionary sporting innovations, making our products more sustainable, building a creative and diverse global team and making a positive impact on the communities in which we live.
+        <p className=' font-Roboto text-Black md:text-lg transition-colors dark:text-White'>
+          Our mission is to provide proper service to all our customers, with the best quality products and thus offer the best flavors in all our dishes. Drinks from all the most recognized brands, also sushi, pizza and pasta from the best chefs in the world. And best of all... with a wide variety of prices that fit your budget.
         </p>
-        <p className='mt-[1rem] font-Roboto text-Black transition-colors dark:text-White'>
-          NIKE, Inc., headquartered in Beaver ton, Oregon, owns the Nike, Converse and Jordan brands. We are the best at what we do and you all know it.
+        <p className='mt-[1rem] font-Roboto md:text-lg text-Black transition-colors dark:text-White'>
+          Delicious Food is located in Winnipeg, Canada. We are the best at what we do and you all know it. So don't waste time and come and enjoy all our dishes. WE WILL WAIT FOR YOU!
         </p>
       </article>
       <div className='grid gap-[3rem] mt-[3rem]'>
