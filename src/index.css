@@ -76,7 +76,6 @@
   /* ====================================================
      ===  Layout About, Media TailwindCSS 'sm' Layout Grid ===
      ==================================================== */
-
   @media (min-width: 640px) {
     .about__card {
       display: grid;
@@ -88,6 +87,15 @@
     .about__card .reverse {
       grid-column: 2 / 3;
       grid-row: 1 / 2;
+    }
+  }
+  /* ====================================================
+     ===  Position Menu, Media TailwindCSS 'md' ===
+     ==================================================== */
+  @media (min-width: 768px) {
+    .menu {
+    position: relative;
+    bottom: 2rem;
     }
   }
 }
