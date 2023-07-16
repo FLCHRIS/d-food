@@ -19,7 +19,7 @@ Some of the goals of this project are the following:
 - **Website with a correct SEO.**
 - **Website Adaptable to any screen resolution.**
 
-Goals well done
+Achieved goals
 
 The proposed goals for this project were met. :smiling_face_with_three_hearts:
 
