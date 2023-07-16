@@ -5,13 +5,13 @@ export const CardAbout = ({ title, subtitle, paragraph, image, reverse }) => {
   return (
     <div data-aos='fade-up' data-aos-duration='1000' data-aos-delay='300' className='about__card'>
       <div className={reverse}>
-        <p className='font-Roboto font-semibold text-Black dark:text-White transition-colors'>
+        <p className='font-Roboto md:text-lg font-semibold text-Black dark:text-White transition-colors'>
           {subtitle}
         </p>
-        <h3 className='font-Roboto font-bold text-[1.25rem] text-Black dark:text-White'>
+        <h3 className='font-Roboto font-bold text-[1.25rem] md:text-[1.35rem] text-Black dark:text-White'>
           {title}
         </h3>
-        <p className=' font-Roboto text-Black transition-colors dark:text-White my-[1rem]'>
+        <p className=' font-Roboto text-Black md:text-lg transition-colors dark:text-White my-[1rem]'>
           {paragraph}
         </p>
       </div>
